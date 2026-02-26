@@ -41,54 +41,54 @@ const PRODUCTS: Product[] = [
   {
     id: 1,
     category: "Ceramic Wall Tiles",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO43GtoRQL8v_pdZQ8peBrJRKbg_Vh--5AiA&s=80&w=800",
     description: "Elegant wall solutions for kitchens and bathrooms.",
     brands: ["Time Ceramics", "Qiang Sheng Ceramics"]
   },
   {
     id: 2,
     category: "Ceramic Floor Tiles",
-    image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStiHocPIyH5gOkNWyOUKHrdl-s35MebPiJJg&s=80&w=800",
     description: "Durable and stylish flooring for high-traffic areas."
   },
   {
     id: 3,
     category: "Matt Tiles",
-    image: "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo6SC5Kibgqs1D3p8TTKFNit5pKi6LfWrPw&s=80&w=800",
     description: "Modern non-slip finish for a sophisticated look."
   },
   {
     id: 4,
     category: "PPRC Pipes & Fittings",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ec3?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEdwx6Us6CMzkPJtHVoEQIEDEX96ajQ6ZoYg&s=80&w=800",
     description: "High-quality water supply solutions.",
     brands: ["Minhas PPRC Water Pipe"]
   },
   {
     id: 5,
     category: "PVC Pipes & Fittings",
-    image: "https://images.unsplash.com/photo-1542013936693-884638332954?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXrocNyW1PK5aZRT8lNn-0fZXR4I1VcGhpA&s=80&w=800",
     description: "Reliable drainage and plumbing systems.",
     brands: ["Poly Fit Pipe"]
   },
   {
     id: 6,
     category: "Sanitary Ware",
-    image: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOoY12zfSH5am89H3WTOsmiNHSaapLCE6Hxw&s=80&w=800",
     description: "Wash Basins, Indian & English Commodes, Shower Sets.",
     brands: ["Faisal"]
   },
   {
     id: 7,
     category: "CP Fittings",
-    image: "https://images.unsplash.com/photo-1585338107529-13afc5f02586?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk6JnFye0r4sNooRKNSkwzXdjZd_smhcDshg&s=80&w=800",
     description: "Premium taps and bathroom accessories.",
     brands: ["Millat", "Faisal", "Faraz", "Polo"]
   },
   {
     id: 8,
     category: "Tile Bonds & Grouts",
-    image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFe__lqNrtg3FIU7RveDdgBtnKSPcSBRQ5lQ&s=80&w=800",
     description: "Professional strength adhesives and finishes.",
     brands: ["Shabbir", "Aqua", "Sika", "Master", "Diamond"]
   }
@@ -553,11 +553,11 @@ const Contact = () => {
               <h4 className="text-xl font-bold mb-4">Business Hours</h4>
               <div className="space-y-2 opacity-80">
                 <div className="flex justify-between">
-                  <span>Monday - Saturday</span>
+                  <span>Saturday - Thursday</span>
                   <span>09:00 AM - 08:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Sunday</span>
+                  <span>Friday</span>
                   <span className="text-gold">Closed</span>
                 </div>
               </div>

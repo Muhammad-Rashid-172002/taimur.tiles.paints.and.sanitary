@@ -1,20 +1,48 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Taimur Tiles Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Taimur Tiles Sanitary & Paint Store - Modern Business Website
 
-This contains everything you need to run your app locally.
+This repository contains a **premium, modern, and professional website** for **Taimur Tiles Sanitary & Paint Store**, designed with ultra-modern showroom style, smooth animations, parallax backgrounds, glassmorphism cards, and a responsive layout for all devices.
 
-View your app in AI Studio: https://ai.studio/apps/47fab47a-9914-43f0-b271-5cd442d9a6b3
+You can view the live demo (once deployed) or run it locally on your machine.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🌟 Features
 
+- **Full-width Hero Section** with overlay text and call-to-action buttons  
+- **Sticky Navigation Bar** for easy navigation  
+- **Parallax Background Sections** for modern look  
+- **Premium Products Section** with hover zoom effects and glassmorphism cards  
+- **Client Reviews Section** with auto-sliding testimonials  
+- **Why Choose Us Section** with feature cards  
+- **Contact Section** with phone numbers, email, address, and embedded Google Map  
+- **Floating Call Button** for instant contact  
+- **Responsive & Mobile-Friendly**  
+- **Professional Color Themes**: Deep Navy Blue + White + Gold accents OR Dark Green + White + Light Gray  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🛠 Tech Stack
+
+- **HTML5, CSS3, JavaScript (Vanilla or React/Next.js)**  
+- **Slick Carousel** for testimonials  
+- **Google Maps Embed API** for location  
+- **Responsive Design** for desktop, tablet, and mobile  
+- **Optional:** Node.js / npm if using React or Next.js  
+
+---
+
+## 🚀 Run Locally
+
+**Prerequisites:**  
+- Node.js and npm installed (for React/Next.js version)
+
+**Steps:**
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/taimur-tiles-website.git
