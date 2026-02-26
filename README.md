@@ -45,4 +45,4 @@ You can view the live demo (once deployed) or run it locally on your machine.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/taimur-tiles-website.git
+git clone https://github.com/https://github.com/Muhammad-Rashid-172002/taimur.tiles.paints.and.sanitary.git
