@@ -48,13 +48,13 @@ const PRODUCTS: Product[] = [
   {
     id: 2,
     category: "Ceramic Floor Tiles",
-     image: "public/images/tiles2.jpeg",
+     image: "/images/tiles2.jpeg",
     description: "Durable and stylish flooring for high-traffic areas."
   },
   {
     id: 3,
     category: "Matt Tiles",
-    image: "public/images/tiles3.jpeg",
+    image: "/images/tiles3.jpeg",
     description: "Modern non-slip finish for a sophisticated look."
   },
   {
@@ -74,7 +74,7 @@ const PRODUCTS: Product[] = [
   {
     id: 6,
     category: "Sanitary Ware",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOoY12zfSH5am89H3WTOsmiNHSaapLCE6Hxw&s=80&w=800",
+    image: "/images/PHOTO-2026-02-27-21-31-54.jpg",
     description: "Wash Basins, Indian & English Commodes, Shower Sets.",
     brands: ["Faisal"]
   },
