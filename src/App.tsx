@@ -41,20 +41,20 @@ const PRODUCTS: Product[] = [
   {
     id: 1,
     category: "Ceramic Wall Tiles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO43GtoRQL8v_pdZQ8peBrJRKbg_Vh--5AiA&s=80&w=800",
+      image: "/images/tile1.jpg",
     description: "Elegant wall solutions for kitchens and bathrooms.",
     brands: ["Time Ceramics", "Qiang Sheng Ceramics"]
   },
   {
     id: 2,
     category: "Ceramic Floor Tiles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStiHocPIyH5gOkNWyOUKHrdl-s35MebPiJJg&s=80&w=800",
+     image: "public/images/tiles2.jpeg",
     description: "Durable and stylish flooring for high-traffic areas."
   },
   {
     id: 3,
     category: "Matt Tiles",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo6SC5Kibgqs1D3p8TTKFNit5pKi6LfWrPw&s=80&w=800",
+    image: "public/images/tiles3.jpeg",
     description: "Modern non-slip finish for a sophisticated look."
   },
   {
@@ -269,70 +269,72 @@ const Hero = () => {
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-white overflow-hidden">
+    <section id="about" className="py-32 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-template-columns-[1fr_1.2fr] gap-16 items-center">
-          <motion.div 
+        <div className="grid md:grid-cols-2 gap-16 items-center">
+
+          {/* CEO Image Card - Extra Large */}
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative flex justify-center md:justify-start"
           >
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800" 
-                alt="Modern Interior" 
-                className="w-full h-auto"
+            <div className="relative z-10 w-full max-w-lg md:max-w-xl h-[600px] md:h-[700px] rounded-3xl overflow-hidden shadow-2xl">
+              <img
+                src="/images/ceo.jpeg"  // ✅ Correct public path
+                alt="CEO Taimur Tiles"
+                className="w-full h-full object-cover rounded-3xl"
                 referrerPolicy="no-referrer"
               />
             </div>
-            <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-gold/10 rounded-full -z-0 blur-3xl" />
-            <div className="absolute -top-10 -left-10 p-8 bg-navy text-white rounded-2xl shadow-xl hidden lg:block">
-              <p className="text-4xl font-bold text-gold">10+</p>
-              <p className="text-sm font-medium opacity-70">Years of Excellence</p>
-            </div>
+
+            {/* Background Blurs for depth */}
+            <div className="absolute -bottom-12 -right-12 w-80 h-80 bg-gold/25 rounded-full blur-3xl -z-0" />
+            <div className="absolute -top-12 -left-12 w-64 h-64 bg-gold/15 rounded-full blur-2xl -z-0" />
+            <div className="absolute -bottom-24 -left-24 w-56 h-56 bg-gold/10 rounded-full blur-2xl -z-0" />
           </motion.div>
 
+          {/* About Text */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
+            className="space-y-6"
           >
-            <span className="text-gold font-bold tracking-widest uppercase text-sm mb-4 block">Our Story</span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-8 text-navy">
+            <span className="text-gold font-bold tracking-widest uppercase text-sm mb-2 block">Our Story</span>
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-navy leading-tight">
               Trusted Supplier of Building Materials in Pabbi
             </h2>
-            <div className="space-y-6 text-gray-600 leading-relaxed">
-              <p>
-                Taimur Tiles Sanitary & Paint Store is a premier destination for high-quality construction materials. Located at the heart of Pabbi on Main GT Road, we have established ourselves as the most trusted supplier for contractors, builders, and homeowners alike.
-              </p>
-              <p>
-                Our showroom features an extensive collection of quality certified brands, ensuring that every product you purchase meets international standards of durability and aesthetics. We pride ourselves on offering affordable and competitive prices without compromising on the premium feel your home deserves.
-              </p>
-              <p>
-                With years of experience in the tiles and sanitary business, our expert team is dedicated to helping you find the perfect solutions for your modern home or commercial project.
-              </p>
-            </div>
             
-            <div className="mt-10 grid grid-cols-2 gap-6">
+            <p className="text-gray-700 text-lg leading-relaxed">
+              Meet our CEO, <span className="font-semibold text-navy">Mr. Taimur</span>, whose vision and dedication have shaped Taimur Tiles into one of Pabbi's most trusted suppliers. With over a decade of experience, he ensures quality, innovation, and integrity in every project we deliver.
+            </p>
+
+            <p className="text-gray-700 text-lg leading-relaxed">
+              Our mission is simple: <span className="font-medium text-gold">to provide premium tiles, sanitary ware, and paint solutions that elevate modern homes and construction projects.</span> From the finest ceramic tiles to expert consultation, we deliver excellence at every step.
+            </p>
+
+            <div className="mt-6 grid grid-cols-2 gap-4">
               <div className="flex items-center gap-3">
-                <CheckCircle className="text-gold" />
-                <span className="font-semibold text-navy">Quality Certified</span>
+                <CheckCircle className="text-gold w-6 h-6" />
+                <span className="font-semibold text-navy">Premium Quality</span>
               </div>
               <div className="flex items-center gap-3">
-                <CheckCircle className="text-gold" />
-                <span className="font-semibold text-navy">Competitive Pricing</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <CheckCircle className="text-gold" />
-                <span className="font-semibold text-navy">Expert Consultation</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <CheckCircle className="text-gold" />
+                <CheckCircle className="text-gold w-6 h-6" />
                 <span className="font-semibold text-navy">Trusted Brands</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <CheckCircle className="text-gold w-6 h-6" />
+                <span className="font-semibold text-navy">Expert Guidance</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <CheckCircle className="text-gold w-6 h-6" />
+                <span className="font-semibold text-navy">Customer Satisfaction</span>
               </div>
             </div>
           </motion.div>
+
         </div>
       </div>
     </section>
